@@ -222,11 +222,11 @@
 
 
 <header>
-  <div class="feature" style="background-image: url(1.jpg)">
+  <div class="feature" style="background-image: url(travel.jpeg)"width="200" height="300">
     <div class="container  typeset">
       <br><br><br>
       <h2 id="alembic">Social Data Analysis 2023</h2>
-<p style="color: black; font-weight: bold;">This web page contains the Final Assignment for the social data analysis course.</p>
+<p style="color: white; font-weight: bold;">This web page contains the Final Assignment for the social data analysis course.</p>
 
     </div>
   </div>
@@ -240,69 +240,58 @@
 
   <article class="article  article--page  content  typeset">
 
-    <h1>About the project</h1>
+    <h1>Pre and Post COVID-19 Tourism in Spain</h1>
 
-    <p>This project analyses the crime dataset for the city of San Francisco. The dataset includes crime records from 2003 to 2017 which will be used to create visualisations and draw conclusions.</p>
+    <p>Spain is a popular tourist destination due to its rich history, diverse culture, and stunning beaches. Prior to the COVID-19 pandemic, Spain had over 83 million international visitors in 2019. Tourism contributed more than 12 percent of Spain's gross domestic product, making it a crucial industry for the country's economy. However, the pandemic severely impacted Spain's tourism industry, with the number of visitors dropping by 80% in 2020 compared to the previous year. Through an analysis of the correlation between COVID-19 cases and hospitalizations in Spain and its various regions, we can engage in a thorough examination of the potential tourist destinations that may have contributed to a more seamless transition in the aftermath of the pandemic. The quantification of the correlation between the pandemic and tourism is of utmost importance in comprehending the regions that have exhibited optimal performance in reverting to pre-pandemic levels, as well as in devising contingency strategies for prospective pandemics.</p>
+      <h2>Distribution of COVID-19 cases per region</h2>
+    <p>In terms of cases, Barcelona and Madrid show the highest concentrations across all age groups, followed by Alicante, Zaragoza, Murcia, and Sevilla. In the 80+ age group, Barcelona and Madrid remain the most relevant, while other provinces show a more balanced distribution of cases.
+
+       For hospitalizations, Madrid has the highest concentration for the 0-9 age group, followed by Barcelona, Murcia, Sevilla, and Zaragoza. As age increases, Barcelona becomes more relevant, and it keeps increasing in importance with age groups.
+      
+       Regarding deaths, the amount is significantly higher for older people compared to younger people. In the 80+ age group, Barcelona and Madrid have the highest amounts, followed by Zaragoza, Murcia, Granada, Sevilla, Toledo, Ciudad Real, Valladolid, and Asturias. Other provinces have less than 1000 deaths. Similar patterns are noticeable for lower age groups, where Barcelona and Madrid have the highest amounts, followed by Zaragoza, Sevilla, and Granada for the 20-29 and 30-39 age groups.
+      
+      Overall, the choropleth maps provide an insight into the geographical distribution of COVID-19 cases, hospitalizations, and deaths across Spanish provinces, highlighting the concentration of these events in specific areas and age groups.</p>
+      <iframe src="province_data.html" style="width: 100%; height: 16%;"></iframe>
+        <h3>Pre and Post Covid Trends</h3>
+        <iframe src="precovid_spain_tourism_map.html" style="width: 100%; height: 0%;"></iframe>
+        <iframe src="precovid_bar.html" style="width: 100%; height: 20%;"></iframe>
+        <iframe src="postcovid_spain_tourism_map.html" style="width: 100%; height: 20%;"></iframe>
+        <iframe src="postcovid_bar.html" style="width: 100%; height: 20%;"></iframe>
+    
+          <p>It is noteworthy that prior to and during the COVID-19 pandemic, the provinces of Balears, Illes, Barcelona, and Palmas de Mallorca remained the most frequented destinations. Notably, the order of the most visited provinces did not undergo substantial changes, suggesting the absence of significant emerging travel patterns.
+
+           However, it is worth highlighting that there has been a noticeable decline in the number of tourists visiting the Balearic Islands, from 7 million to approximately 4.1 million, which serves as a clear indication of the pandemic's impact. This trend is observable in other provinces as well.
+  
+          Overall, the data suggests that while the COVID-19 pandemic has resulted in a reduction in tourism numbers across several regions, there has been no significant alteration in the established travel patterns.</p>
+
 
 <!-- <p><a class="button" href="https://github.com/daviddarnes/alembic" style="background: #0366d6">Fork it  <svg width="16" height="16" class="icon  icon--github" role="img" alt="github"><title>Code</title>
 <use xlink:href="#github" fill="CurrentColor"></use></svg>
 </a> -->
-<h1>Analysis</h1>
-<p>Show how the vehicle theft in San Francisco developed over the years. </p>
-<img src="graph1.png" alt="firstGraph">
-<br>
-<h3>Based on the data the following observations were made:</h3>
-<p>
-<ul style="padding-left: 4%;">
-  <li>Based on the data the following observations were made:</li>
-  <li>The highest amount of daily vehicle thefts in these years is: 81</li>
-  <li>The lowest amount of daily vehicle thefts in these years is: 16
-  </li>
-  <li>The overall highest amount of daily vehicle thefts is: 81
-  </li>
-  <li>The overall lowest amount of daily vehicle thefts is: 1
-  </li>
-</ul>
-</p>
+<!-- <h1>Analysis</h1> -->
 
-<h3>Graph Interpretation:</h3>
-<p>Thanks to the use of the calendar plot, the data for the category “VEHICLE THEFT” is shown as a combination of a heatmap and a calendar visualization. 
-  It shows the amounts of crimes per each day in a calendar view. The overall view shows the years grouped and furthermore they are divided vertically in months. They are then divided in weeks which enable us to identify patterns and anomalies within the data easily. 
+
+<h3> Main attractions in the Santa Cruz de Tenerife</h3>
+<iframe src="tenerife_map.html" style="width: 100%; height: 20%;"></iframe>
+<p>According to a recent analysis, Santa Cruz de Tenerife had the lowest percentage of change in tourism before and after the COVID-19 pandemic, indicating its continued popularity as a travel destination. Further analysis of tourist activity on the island suggests that the following attractions were the most popular, as measured by the number of photos taken in those areas:
+  <ul style="padding-left: 4%;">
+    <li><b>0:</b>Castillo de San Juan Bautista (Castillo Negro)  a fortress from the 17 century</li>
+    <li><b>1:</b>La Charca a very beautiful lake  surrounded by monuments</li>
+    <li><b>2:</b> Palmetum of Santa Cruz a park with the best collection of palm trees in Europe</li>
+    <li><b>3:</b> El rastro de santa cruz the largest street market on the island also surrounded by different historical monumen</li>
+    <li><b>4:</b> Puerto de la Cruz the most popular and stunning port on the island </li>
+    
   
-  Immediately it can be noticed how the first three years, from 2003 until 2005, have a higher amount of vehicle thefts within the San Francisco area. This is confirmed as the <a href="https://www.macrotrends.net/cities/us/ca/san-francisco/motor-vehicle-theft-rate-statistics">website Macro Trends</a> where it can be seen that the years of the early 2000s suffered of the highest crime. It slowly declines over the years, and it increases again in 2015 with the highest of 801 vehicle thefts in that year. It is however lower that the first peak which happens in 2005 with 1091 vehicle thefts in the San Francisco area. 
-  
-  By looking at our calendar plot, overall, the lowest amount of vehicle theft crimes is found to be 1 and it happens on the third of May of 2011; while the highest amount is 81 and it happens on the 21st of January of 2005. Respectively, for the smaller range of year that we are considering, the highest value happens on 21st of January of 2005 and the lowest amount is 16 which happens on the 31st of January 2003. </p>
-
-<h3>The Map of San Francisco</h3>
-<iframe src="map222.html" style="width:100%; height:20%;"></iframe>
-<p>The immidiate impression is, that <i>Tenderloin</i> is the best place to park your car, while <i>Ingleside</i> is the most risky district. However, <i>Tenderloin</i> is a substantially smaller area than the remaining districts, so it could be relevant to also account for how big/populated the districts are. Furthermore, <i>Tenderloin</i> appears to be more centrally placed then <i>Ingleside</i>, which could mean that there aren't as many parking spots there, as in the city fringe. Thus, it might simply come down to how many cars there are available for stealing in the given districts. </p>
-
-
-<p>The initial impression is that the district <i>Tenderloin</i> is the best place to park your car, while <i>Ingleside</i> is the most risky district. The districts with the safest areas from the riskiest ones are in the following order: <br>
-<ul style="padding-left: 4%;">
-  <li>Tenderloin</li>
-  <li>Park</li>
-  <li>Richmond</li>
-  <li>Central</li>
-  <li>Southern</li>
-  <li>Taraval</li>
-  <li>Northern</li>
-  <li>Bayview</li>
-  <li>Ingleside</li>
-
-</ul></p>
-<p>However,  <i>Tenderloin</i>  is a substantially smaller area than the other districts considered, so it could be relevant to also account for how big/populated the districts are. Furthermore, the  <i>Tenderloin</i>  district appears to be more centrally placed than the `Ingleside` one, which could mean that there aren't as many parking spots there, as in the city area. Therefore, it might simply come down to how many cars are “available” for stealing in the given districts. 
+  </ul>
 </p>
+<h3> Conclusion</h3>
+<p> To elaborate, Santa Cruz de Tenerife region in Spain has been able to maintain a stable position in the tourism industry, even amidst the global COVID-19 pandemic. This can be attributed to the region's emphasis on outdoor tourism attractions, which have become increasingly popular as tourists seek safe and socially distant activities.
 
-<p>The website  <a href="https://thebolditalic.com/more-cars-being-stolen-in-these-sf-neighborhoods-the-bold-italic-san-francisco-4900f870e0e9">“The Bold Italic”</a>
-is also confirming that one of the district to be aware of is `Park` district, which in 2013 had an increase of approximately 33% vehicle thefts compared to the previous year. This shows how over the years the districts might “suffer” of an increase in vehicle theft. IN the case of the `Park` district, it is possible that it had a really low amount of vehicle thefts early in the 2000s and then a sudden increase over the years. Overall the amount might still be lower compared to the others.</p>
-<br>
-<h3>Overview of crimes per hour</h3>
-<iframe src="test.html" style="width:180%; height: 7%;"></iframe>
-<p>This is an interactive graph where by selecting any crime type from the list it can be visualized the frequence of it occurence during all hours of the day. </p>
-<br>
-<br>
-<br>
+  The region's natural landmarks and scenic sites have proven to be a draw for tourists seeking to explore and appreciate the diverse and visually striking natural environment. The natural attractions of the region have remained relatively unimpacted by pandemic-related restrictions, as visitors are able to explore and enjoy them while adhering to social distancing guidelines. Additionally, the region's tourism industry has adapted to the changing needs of visitors by offering activities such as hiking, cycling, and watersports, which allow for safe and socially distant outdoor recreation.
+  
+  As a result, the Santa Cruz de Tenerife region has experienced comparatively lesser variation in tourist activity from pre-COVID to post-COVID, making it a promising location for the tourism industry in the years to come. The region's focus on outdoor tourism and appreciation for its natural environment has made it a resilient and attractive destination for tourists seeking a unique and safe travel experience.
+  
+  </p>
 </main>
   </body>
 

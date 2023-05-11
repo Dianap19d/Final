@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b16b89377b6b9ae89335a7c2a54d323c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/marslan390/BeautifyMarker/leaflet-beautify-marker-icon.min.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b16b89377b6b9ae89335a7c2a54d323c" ></div>
+        
+</body>
+<script>    
+    
+            var map_b16b89377b6b9ae89335a7c2a54d323c = L.map(
+                "map_b16b89377b6b9ae89335a7c2a54d323c",
+                {
+                    center: [28.2916, -16.6291],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_11dae4dcb113b6fca7830a73b76b4766 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b16b89377b6b9ae89335a7c2a54d323c);
+        
+    
+            var marker_747e87d9ad7a82a30bafce2bb0e56ea9 = L.marker(
+                [28.45604205882354, -16.252138137254907],
+                {}
+            ).addTo(map_b16b89377b6b9ae89335a7c2a54d323c);
+        
+    
+            var beautify_icon_762de0c8f9f1ccb6ba034b895780daf6 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 0, "textColor": "blue"}
+            )
+            marker_747e87d9ad7a82a30bafce2bb0e56ea9.setIcon(beautify_icon_762de0c8f9f1ccb6ba034b895780daf6);
+        
+    
+            var marker_49338baee84457b8bfac8be80fcbe753 = L.marker(
+                [28.46709711666667, -16.247230950000002],
+                {}
+            ).addTo(map_b16b89377b6b9ae89335a7c2a54d323c);
+        
+    
+            var beautify_icon_82ffae1e0a051af6785562131f4052c6 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 1, "textColor": "blue"}
+            )
+            marker_49338baee84457b8bfac8be80fcbe753.setIcon(beautify_icon_82ffae1e0a051af6785562131f4052c6);
+        
+    
+            var marker_7c54ff490db4965738a3375ec44984f3 = L.marker(
+                [28.451999062500004, -16.25611189583333],
+                {}
+            ).addTo(map_b16b89377b6b9ae89335a7c2a54d323c);
+        
+    
+            var beautify_icon_4ee6c2898f457991bf994e0db11dece5 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 2, "textColor": "blue"}
+            )
+            marker_7c54ff490db4965738a3375ec44984f3.setIcon(beautify_icon_4ee6c2898f457991bf994e0db11dece5);
+        
+    
+            var marker_d78642d624f6e6d0f5657ea4e7b15fd7 = L.marker(
+                [28.46304734090909, -16.251875386363636],
+                {}
+            ).addTo(map_b16b89377b6b9ae89335a7c2a54d323c);
+        
+    
+            var beautify_icon_51647ad312bb045e6579fcb2f9a2928d = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 3, "textColor": "blue"}
+            )
+            marker_d78642d624f6e6d0f5657ea4e7b15fd7.setIcon(beautify_icon_51647ad312bb045e6579fcb2f9a2928d);
+        
+    
+            var marker_ee5a241bf2766f1aaa5047364aa4e4fb = L.marker(
+                [28.466849885714286, -16.244390257142857],
+                {}
+            ).addTo(map_b16b89377b6b9ae89335a7c2a54d323c);
+        
+    
+            var beautify_icon_a2a28f0e3674dfafe172467a66a02942 = new L.BeautifyIcon.icon(
+                {"backgroundColor": "#FFF", "borderColor": "blue", "borderWidth": 3, "iconShape": "marker", "innerIconStyle": "", "isAlphaNumericIcon": true, "spin": false, "text": 4, "textColor": "blue"}
+            )
+            marker_ee5a241bf2766f1aaa5047364aa4e4fb.setIcon(beautify_icon_a2a28f0e3674dfafe172467a66a02942);
+        
+</script>
